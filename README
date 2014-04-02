@@ -1,0 +1,9 @@
+File encryption program uses an already existing text file to shift all the letters by three forward. An example: a -> d.
+User uses option 4 to choose a file to encrypt. Afterwards the user can clear the file, add to it, encrypt or decrypt 
+the file or choose another one.
+
+Putty commands:
+g++ -c encryption.cpp cesar.cpp
+g++ -o encrypt encryption.o cesar.o
+./encrypt
+
